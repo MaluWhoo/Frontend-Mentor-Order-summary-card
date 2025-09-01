@@ -44,28 +44,36 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+During this project, I practiced and improved several skills:
 
-To see how you can add code snippets, see below:
+- Building **responsive layouts** using a mobile-first approach.  
+- Positioning and aligning elements with **Flexbox**.  
+- Applying **hover states** to buttons and links for better user interaction.  
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+#### Example of a hover effect I implemented:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.button {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.19);
+    background-color: #382AE1;
+    color: white;
+    font-size: 95%;
+    font-weight: 700;
+    cursor: pointer;
+    height: 50px;
+    transition: background-color 0.3s;
+    display: block;
+}
+
+.button:hover {
+    background-color: #766CF1;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 
 ### Continued development
 
